@@ -57,6 +57,7 @@ input[type="text"]:focus {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 .dropdown li {
   padding: 10px;
   cursor: pointer;
@@ -88,6 +89,6 @@ input[type="text"]:focus {
   background-color: #dc3545; /* Rojo */
 }
 
-.dropdown li.highlight {
+.dropdown li.highlighted {
   background-color: #d1e7ff; /* Azul claro */
 }
