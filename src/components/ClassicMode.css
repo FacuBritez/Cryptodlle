@@ -1,0 +1,103 @@
+.selected-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaciado vertical */
+  align-items: center;
+  justify-content: flex-start; /* Evita centrado vertical */
+  margin: 40px auto; /* Centrado horizontal */
+  max-width: 600px; /* Ancho fijo y centrado */
+}
+
+.selected-list div {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centrado vertical en cada fila */
+  gap: 5px;
+  width: 100%; /* Permite que ocupe todo el ancho disponible */
+}
+
+.crypto-info, .stat-box {
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  display: flex;
+  flex-direction: row; /* Coloca los elementos en fila */
+  justify-content: space-between; /* Coloca los elementos a los extremos */
+  align-items: center; /* Centrado vertical */
+}
+
+.crypto-info img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.stat-box {
+  display: flex;
+  justify-content: space-between; /* Coloca los elementos a los extremos */
+  align-items: center; /* Centrado vertical */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.stat-box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-box p {
+  margin: 0; /* Elimina el margen por defecto de los p */
+}
+
+.arrow {
+  font-size: 1.5rem;
+  display: inline-flex; /* Para que no ocupe todo el ancho */
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px; /* Espacio entre el texto y la flecha */
+}
+
+.up {
+  color: green; 
+}
+
+.down {
+  color: red; 
+}
+
+.correct {
+  background-color: green !important;  /* Fuerza el color verde */
+}
+
+.crypto-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+}
+
+.dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown li:hover, .highlighted {
+  background-color: lightgray;
+}

@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;  /* Centra verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    margin: auto;
+    max-width: fit-content;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+a {
+    margin: 0 10px;  /* Ajusta márgenes para que no se peguen al borde */
+    padding: 10px;
+    border-radius: 15px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;  /* Elimina subrayado por defecto */
+}
+
+a:hover {
+    background-color: darkgrey;  /* Cambio en hover */
+}
